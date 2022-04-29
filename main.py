@@ -12,7 +12,7 @@ print(len(txt_list))
 
 
 #학습 시작합니다
-#/home/yunjihwan/바탕화면/Ahagi/Cap/yolov5/train.py  --batch 64 --epochs 300 --data '/home/yunjihwan/바탕화면/Ahagi/Cap/dataset/customdata.yaml' --cfg '/home/yunjihwan/바탕화면/Ahagi/Cap/yolov5/models/yolov5s.yaml' --weights yolov5s.pt --name sevenlable0323
+#python /home/yunjihwan/바탕화면/Ahagi/Cap/yolov5/train.py  --batch 64 --epochs 300 --data '/home/yunjihwan/바탕화면/Ahagi/Cap/dataset/customdata.yaml' --cfg '/home/yunjihwan/바탕화면/Ahagi/Cap/yolov5/models/yolov5s.yaml' --weights yolov5s.pt --name sevenlable0323
 
 #python /home/yunjihwan/바탕화면/Ahagi/Cap/yolov5/detect.py --weights /home/yunjihwan/바탕화면/Ahagi/Cap/yolov5/runs/train/sevenlable0323_last/weights/best.pt --source /home/yunjihwan/바탕화면/Ahagi/Cap/haha.jpg
 
